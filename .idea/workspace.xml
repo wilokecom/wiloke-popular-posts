@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38ebb3bb-efa7-4496-867f-c40001aad6ea" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wp-content/plugins/wilcity-banner-submission" />
+  </component>
+  <component name="ProjectId" id="1hwIjKdvf4W4yV6aTxgjmP0KsaW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xamp\htdocs\vuongvlog\wp-content\themes\vuongvlog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xamp\htdocs\vuongvlog\wp-content\plugins\ComingSoon\assets" />
+      <recent name="E:\xamp\htdocs\vuongvlog\wp-content\themes" />
+      <recent name="E:\xamp\htdocs\vuongvlog\wp-content\themes\demo" />
+      <recent name="E:\xamp\htdocs\vuongvlog\wp-content\themes\vuongvlog\assets\css" />
+      <recent name="E:\xamp\htdocs\vuongvlog\wp-content\themes\vuongvlog\assets" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38ebb3bb-efa7-4496-867f-c40001aad6ea" name="Default Changelist" comment="" />
+      <created>1600915861288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600915861288</updated>
+      <workItem from="1600915862775" duration="901000" />
+      <workItem from="1600938253187" duration="3264000" />
+      <workItem from="1600949820752" duration="629000" />
+      <workItem from="1600998970102" duration="1007000" />
+      <workItem from="1601017537754" duration="3303000" />
+      <workItem from="1601107875665" duration="934000" />
+      <workItem from="1601129654542" duration="3340000" />
+      <workItem from="1601164973305" duration="2719000" />
+      <workItem from="1601258277813" duration="14810000" />
+      <workItem from="1601473885647" duration="2431000" />
+      <workItem from="1601533947785" duration="19000" />
+      <workItem from="1601953049204" duration="16810000" />
+      <workItem from="1601995983880" duration="1304000" />
+      <workItem from="1602085270813" duration="2605000" />
+      <workItem from="1602114464861" duration="3728000" />
+      <workItem from="1602121237479" duration="14400000" />
+      <workItem from="1602150219966" duration="10000" />
+      <workItem from="1602423224315" duration="616000" />
+      <workItem from="1602431608959" duration="609000" />
+      <workItem from="1602466152096" duration="1280000" />
+      <workItem from="1603090997528" duration="2334000" />
+      <workItem from="1603115146151" duration="8014000" />
+      <workItem from="1603161503881" duration="4398000" />
+      <workItem from="1603197127981" duration="78000" />
+      <workItem from="1603244027845" duration="13803000" />
+      <workItem from="1603275983380" duration="2244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601976813488">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1601976813488" />
+    <state x="413" y="121" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601974516504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="121" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601974516504" />
+    <state x="467" y="282" key="ComposerInitDialogKey" timestamp="1601953325251">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="467" y="282" key="ComposerInitDialogKey/0.0.1366.728@0.0.1366.728" timestamp="1601953325251" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1603249080390">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/-203.-1080.1920.1080@0.0.1366.728" timestamp="1601285069498" />
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603249080390" />
+    <state x="566" y="253" key="NewPhpClassDialog" timestamp="1603253791694">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="566" y="253" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1603253791694" />
+    <state x="518" y="294" key="NewPhpFileDialog" timestamp="1603124148113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="294" key="NewPhpFileDialog/0.0.1366.728/-203.-1080.1920.1080@0.0.1366.728" timestamp="1601280979955" />
+    <state x="518" y="294" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603124148113" />
+    <state x="390" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1603197139719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603197139719" />
+    <state x="569" y="126" width="585" height="488" key="find.popup" timestamp="1603162746105">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="569" y="126" width="585" height="488" key="find.popup/0.0.1366.728/-203.-1080.1920.1080@0.0.1366.728" timestamp="1601277726350" />
+    <state x="569" y="126" width="585" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1603162746105" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1601977586939">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601977586939" />
+    <state x="339" y="6" width="670" height="676" key="search.everywhere.popup" timestamp="1601276817681">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="6" width="670" height="676" key="search.everywhere.popup/0.0.1366.728/-203.-1080.1920.1080@0.0.1366.728" timestamp="1601276817681" />
+  </component>
+</project>
