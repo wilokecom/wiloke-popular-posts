@@ -5,10 +5,10 @@ namespace popularPosts\Controller;
 
 
 use popularPosts\core\App;
-use popularPosts\Model\popularPostsModel;
+use popularPosts\Model\PopularPostsModel;
 use WP_Widget;
 
-class popularPost_Widget extends WP_Widget
+class PopularPostWidget extends WP_Widget
 {
     public $data = ['title' => '','topView'=>'5','select'=>'thisOne'];
 
@@ -71,10 +71,10 @@ class popularPost_Widget extends WP_Widget
         }
         if (is_single()) {
             echo '<ul>';
-            $data = popularPostsModel::selectTopView($aInstance['topView']);
+           $data=PopularPostsModel::selectTopView($aInstance['topView'],$aInstance['select']);
             foreach ($data as $values) {
                 ?>
-                <li><a href="<?=$values['1']?>"><?=$values['0']?></a></li>
+                <li><a href="<?=$values['guid']?>"><?=$values['post_title']?></a></li>
                 <?php
             }
             echo '</ul>';

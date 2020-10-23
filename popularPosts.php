@@ -10,7 +10,7 @@
 
 
 use popularPosts\Controller\menuController;
-use popularPosts\Controller\popularPost_Widget;
+use popularPosts\Controller\PopularPostWidget;
 use popularPosts\Controller\Settings;
 use popularPosts\core\App;
 use popularPosts\Database\createTable;
@@ -20,11 +20,11 @@ define('popularPosts_URI', plugin_dir_url(__FILE__));
 define('popularPosts_PATH', plugin_dir_path(__FILE__));
 define('popularPosts_version', 1.0);
 require_once popularPosts_PATH . 'vendor/autoload.php';
-require_once popularPosts_PATH.'popularPostsWidget.php';
+require_once popularPosts_PATH . 'PopularPostsWidget.php';
 App::bind('config/app', require_once popularPosts_PATH . 'config/app.php');
 
 new menuController();
 new DB();
 new createTable();
 new Settings();
-new popularPost_Widget();
+new PopularPostWidget();

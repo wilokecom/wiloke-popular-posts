@@ -1,27 +1,23 @@
 <?php
 return [
-    'database'=>[
-        'host'=>'localhost',
-        'username'=>'root',
-        'password'=>'',
-        'dbname'=>'vuongvlog'
-    ],
     'option' => [
         '1'     => [
             'name' => 'This Day',
-            'value' => 'thisDay'
+            'value' => 'thisDay',
+
         ],
         '2'     => [
             'name' => 'This Week',
-            'value' => 'thisWeek'
+            'value' => 'thisWeek',
+
         ],
         '3'     => [
             'name' => 'Last Week',
-            'value' => 'lastWeek'
+            'value' => 'lastWeek',
         ],
         '4'     => [
             'name' => 'This Month',
-            'value' => 'thisMonth'
+            'value' => 'thisMonth',
         ],
     ],
 ];

@@ -19,7 +19,7 @@ class Settings
             $data['Viewed'] = 1;
             popularPostsModel::insertView($data);
         } else {
-            $data['Viewed'] = popularPostsModel::selectCountView($postID)['Viewed'];
+            $data['Viewed'] = popularPostsModel::selectCountView($postID);
             $data['Viewed']++;
             popularPostsModel::updateCountView($data);
         }

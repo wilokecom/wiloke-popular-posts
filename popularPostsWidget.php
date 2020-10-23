@@ -1,6 +1,6 @@
 <?php
-add_action('widgets_init', 'Create_Widget');
-function Create_Widget()
+add_action('widgets_init', 'CreateWidget');
+function CreateWidget()
 {
-    register_widget('popularPosts\Controller\popularPost_Widget');
+    register_widget('popularPosts\Controller\PopularPostWidget');
 }
