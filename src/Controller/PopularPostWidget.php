@@ -1,11 +1,11 @@
 <?php
 
 
-namespace popularPosts\Controller;
+namespace PopularPosts\Controller;
 
 
-use popularPosts\core\App;
-use popularPosts\Model\PopularPostsModel;
+use PopularPosts\core\App;
+use PopularPosts\Model\PopularPostsModel;
 use WP_Widget;
 
 class PopularPostWidget extends WP_Widget
@@ -15,7 +15,7 @@ class PopularPostWidget extends WP_Widget
     //thong tin widget
     public function __construct()
     {
-        parent::__construct('popularPost_Widget', 'Popular Posts', [
+        parent::__construct('PopularPostWidget', 'Popular Posts', [
             'description' => 'Top popular post'
         ]);
     }

@@ -1,16 +1,16 @@
 <?php
 
 
-namespace popularPosts\Controller;
+namespace PopularPosts\Controller;
 
 
-use popularPosts\Model\popularPostsModel;
+use PopularPosts\Model\popularPostsModel;
 
 class Settings
 {
     public static function countView($postID)
     {
-        $data['postID'] = $postID;
+        $data['postID'] = esc_html($postID);
 //        $ip = self::clientIP();
 //        $data['Viewed_country'] =  json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
         $data['Viewed_country']='VN';

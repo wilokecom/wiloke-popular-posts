@@ -1,11 +1,11 @@
 <?php
 
 
-namespace popularPosts\Controller;
+namespace PopularPosts\Controller;
 
 
 class controller
 {
-    protected $menuSlug1='popularPosts-settings';
-    protected $optionKey1='popularPosts-settings';
+    protected $menuSlug1='PopularPosts-settings';
+    protected $optionKey1='PopularPosts-settings';
 }

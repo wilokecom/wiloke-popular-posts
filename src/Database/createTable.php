@@ -1,7 +1,7 @@
 <?php
 
 
-namespace popularPosts\Database;
+namespace PopularPosts\Database;
 
 
 class createTable

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace popularPosts\core;
+namespace PopularPosts\core;
 
 
 class App
