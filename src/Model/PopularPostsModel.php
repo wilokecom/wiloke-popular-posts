@@ -59,19 +59,31 @@ class PopularPostsModel
         if ($select == 'thisDay' || $select == 'thisWeek' || $select == 'thisMonth') {
             switch ($select) {
                 case 'thisDay':
-                    $where = " date_time >= now() - INTERVAL 1 DAY";
+                    $where = $wpdb->prepare(
+                        "date_time >= now() - INTERVAL %d DAY",
+                        1
+                    );
                     break;
                 case 'thisWeek':
-                    $where = "date_time >= now() - INTERVAL 7 DAY";
+                    $where = $wpdb->prepare(
+                        "date_time >= now() - INTERVAL %d DAY",
+                        7
+                    );
                     break;
                 case 'thisMonth':
-                    $where = "date_time >= now() - INTERVAL 30 DAY";
+                    $where = $wpdb->prepare(
+                        "date_time >= now() - INTERVAL %d DAY",
+                        30
+                    );
                     break;
             }
         } else {
-            $where = "date_time BETWEEN date_sub(now(),INTERVAL 1 WEEK) and now()";
+            $where= $wpdb->prepare("date_time BETWEEN date_sub(now(),INTERVAL %d WEEK) and now()",1);
         }
-        $sql=$wpdb->_real_escape(sprintf("SELECT p.post_title,p.guid FROM topview tv JOIN wp_posts p on p.ID=tv.postID where %s ORDER BY tv.Viewed DESC LIMIT %d",$where, $views));
-        return $wpdb->get_results($sql, 'ARRAY_A');
+        return $wpdb->get_results(
+            $wpdb->prepare(
+                "SELECT p.post_title,p.guid FROM topview tv JOIN wp_posts p on p.ID=tv.postID where $where  ORDER BY tv.Viewed DESC LIMIT %d", $views
+            ),'ARRAY_A'
+        );
     }
 }
