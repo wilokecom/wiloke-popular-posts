@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PopularPosts\Model;
+namespace wilokePopularPosts\Model;
 
 
 class PopularPostsModel

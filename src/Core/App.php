@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PopularPosts\core;
+namespace wilokePopularPosts\core;
 
 
 class App

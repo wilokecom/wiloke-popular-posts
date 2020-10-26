@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PopularPosts\\' => array($baseDir . '/src'),
+    'wilokePopularPosts\\' => array($baseDir . '/src'),
 );

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace PopularPosts\Controller;
+namespace wilokePopularPosts\Controller;
 
 
-use PopularPosts\Model\popularPostsModel;
+use wilokePopularPosts\Model\popularPostsModel;
 
 class Settings
 {

@@ -1,13 +1,13 @@
 <?php
 
 
-namespace PopularPosts\Controller;
+namespace wilokePopularPosts\Controller;
 
 
-use PopularPosts\Database\createTable;
+use wilokePopularPosts\Database\createTable;
 
 
-class menuController extends controller
+class MenuController extends controller
 {
     public function __construct()
     {
@@ -16,8 +16,8 @@ class menuController extends controller
 
     public function registerMenu()
     {
-        add_menu_page('PopularPosts-CountView',
-            'PopularPosts-CountView',
+        add_menu_page('wiloke-PopularPosts',
+            'wiloke-PopularPosts',
             'administrator',
             $this->menuSlug1,
             [$this, 'menuSettings']);

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace PopularPosts\Controller;
+namespace wilokePopularPosts\Controller;
 
 
-use PopularPosts\core\App;
-use PopularPosts\Model\PopularPostsModel;
+use wilokePopularPosts\Core\App;
+use wilokePopularPosts\Model\PopularPostsModel;
 use WP_Widget;
 
 class PopularPostWidget extends WP_Widget

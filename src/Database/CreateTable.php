@@ -1,10 +1,10 @@
 <?php
 
 
-namespace PopularPosts\Database;
+namespace wilokePopularPosts\Database;
 
 
-class createTable
+class CreateTable
 {
     public function __construct()
     {
