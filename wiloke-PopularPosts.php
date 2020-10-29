@@ -11,9 +11,9 @@
 
 use wilokePopularPosts\Controller\MenuController;
 use wilokePopularPosts\Controller\PopularPostWidget;
-use wilokePopularPosts\Controller\Settings;
 use wilokePopularPosts\Core\App;
 use wilokePopularPosts\Database\CreateTable;
+use wilokePopularPosts\Helpers\Settings;
 
 
 define('popularPosts_URI', plugin_dir_url(__FILE__));

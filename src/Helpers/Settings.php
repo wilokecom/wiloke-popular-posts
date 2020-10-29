@@ -1,10 +1,10 @@
 <?php
 
 
-namespace wilokePopularPosts\Controller;
+namespace wilokePopularPosts\Helpers;
 
 
-use wilokePopularPosts\Model\popularPostsModel;
+use wilokePopularPosts\Model\PopularPostsModel;
 
 class Settings
 {
@@ -45,5 +45,4 @@ class Settings
 
         return $ipaddress;
     }
-
 }
