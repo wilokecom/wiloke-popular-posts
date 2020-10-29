@@ -13,7 +13,7 @@ class Settings
         $data['postID'] = esc_html($postID);
 //        $ip = self::clientIP();
 //        $data['Viewed_country'] =  json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
-        $data['Viewed_country']='VN';
+        $data['ViewedCountry']='VN';
         $data['Viewed'] = popularPostsModel::selectCountView($postID);
         if (empty($data['Viewed'])) {
             $data['Viewed'] = 1;

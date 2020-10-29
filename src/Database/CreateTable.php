@@ -14,10 +14,10 @@ class CreateTable
     public function createTable()
     {
         global $wpdb;
-        $sql = "CREATE TABLE IF NOT EXISTS Topview(
+        $sql = "CREATE TABLE IF NOT EXISTS TopView(
         ID bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
 		postID bigint(20) UNSIGNED,
-		Viewed_country varchar(100) NOT NULL,
+		ViewedCountry varchar(100) NOT NULL,
 		Viewed bigint not null,
 		date_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 		FOREIGN KEY (postID) REFERENCES wp_posts(ID) ON DELETE CASCADE,
