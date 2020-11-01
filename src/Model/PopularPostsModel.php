@@ -13,7 +13,7 @@ class PopularPostsModel
             [
                 'ID' => null,
                 'postID' => $data['postID'],
-                'Viewed_country' => $data['Viewed_country'],
+                'ViewedCountry' => $data['ViewedCountry'],
                 'Viewed' => $data['Viewed'],
                 'date_time' => null
             ],
