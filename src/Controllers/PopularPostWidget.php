@@ -1,11 +1,11 @@
 <?php
 
 
-namespace wilokePopularPosts\Controller;
+namespace wilokePopularPosts\Controllers;
 
 
 use wilokePopularPosts\Core\App;
-use wilokePopularPosts\Model\PopularPostsModel;
+use wilokePopularPosts\Models\PopularPostsModel;
 use WP_Widget;
 
 class PopularPostWidget extends WP_Widget
@@ -16,7 +16,7 @@ class PopularPostWidget extends WP_Widget
     public function __construct()
     {
         parent::__construct('PopularPostWidget', 'Popular Posts', [
-            'description' => 'Top popular post'
+            'description' => 'Top popular posts'
         ]);
     }
 

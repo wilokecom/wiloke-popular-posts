@@ -4,7 +4,7 @@
 namespace wilokePopularPosts\Helpers;
 
 
-use wilokePopularPosts\Model\PopularPostsModel;
+use wilokePopularPosts\Models\PopularPostsModel;
 
 class Settings
 {

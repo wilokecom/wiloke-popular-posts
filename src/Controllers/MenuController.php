@@ -1,7 +1,7 @@
 <?php
 
 
-namespace wilokePopularPosts\Controller;
+namespace wilokePopularPosts\Controllers;
 
 
 use wilokePopularPosts\Database\createTable;
@@ -16,10 +16,10 @@ class MenuController extends controller
 
     public function registerMenu()
     {
-        add_menu_page('wiloke-PopularPosts',
-            'wiloke-PopularPosts',
+        add_menu_page('Wiloke PopularPosts',
+            'Wiloke PopularPosts',
             'administrator',
-            $this->menuSlug1,
+            $this->menuPopularPost,
             [$this, 'menuSettings']);
     }
 
